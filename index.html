@@ -394,6 +394,47 @@
     </svg>
   </a>
 
+  <!-- Order & Aramex Delivery Form -->
+<section id="order-form" style="padding: 50px 20px; background-color: #fdfbfb; text-align: center;">
+    <div style="max-width: 520px; margin: 0 auto; background: #ffffff; padding: 32px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
+        <h2 style="margin-bottom: 8px;">Place an Order</h2>
+        <p style="font-size: 0.9rem; color: #666; margin-bottom: 24px;">
+            Prefer to order directly? Fill in your details below for Aramex courier delivery, or message us on WhatsApp anytime.
+        </p>
+
+        <form action="https://formspree.io/f/mwloojzl" method="POST" style="display: flex; flex-direction: column; gap: 14px; text-align: left;">
+            <div>
+                <label style="display: block; font-size: 0.85rem; font-weight: 500; margin-bottom: 4px;">Full Name *</label>
+                <input type="text" name="customer_name" required placeholder="e.g. Sarah Jacobs" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+            </div>
+
+            <div>
+                <label style="display: block; font-size: 0.85rem; font-weight: 500; margin-bottom: 4px;">WhatsApp / Contact Number *</label>
+                <input type="tel" name="phone_number" required placeholder="e.g. 082 123 4567" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+            </div>
+
+            <div>
+                <label style="display: block; font-size: 0.85rem; font-weight: 500; margin-bottom: 4px;">Aramex Delivery Address *</label>
+                <textarea name="delivery_address" rows="3" required placeholder="Street number & name, suburb, city, postal code" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;"></textarea>
+            </div>
+
+            <div>
+                <label style="display: block; font-size: 0.85rem; font-weight: 500; margin-bottom: 4px;">Jewelry Piece(s) &amp; Finish *</label>
+                <input type="text" name="order_items" required placeholder="e.g. White Aurora Bracelet (Gold) x1" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+            </div>
+
+            <label style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.78rem; color: #555; margin-top: 4px;">
+                <input type="checkbox" name="popia_consent" required style="margin-top: 3px;">
+                <span>I consent to 4evercharmed storing my details strictly to process my order and arrange Aramex courier delivery in accordance with POPIA.</span>
+            </label>
+
+            <button type="submit" style="padding: 12px; background-color: #1a1a1a; color: #ffffff; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; margin-top: 8px;">
+                Submit Order
+            </button>
+        </form>
+    </div>
+</section>
+
   <!-- Footer Section -->
    <!-- Bottom Sign-off Banner -->
   <section class="footer-banner-section">
