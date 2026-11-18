@@ -269,10 +269,21 @@ const products = [
     image: "images/dainty-flower-bracelets.jpg",
     description: "A playful yet elegant collection-inspired bracelet featuring delicate floral stations available in a variety of gemstone and pearl finishes, set on both gold and silver-plated stainless steel chains."
   },
+  {
+    id: "fc-24",
+    name: "White Aurora Bracelet",
+    category: "bracelets",
+    finish: "gold",
+    finishLabel: "Gold-Plated Stainless Steel",
+    price: 190,
+    inStock: true,
+    image: "images/gold-white-aurora-bracelet.jpg",
+    description: "Shimmering clear crystal aurora bracelet set in polished gold."
+  },
 
   // --- SILVER PIECES ---
   {
-    id: "fc-24",
+    id: "fc-25",
     name: "Chunky Silver Hoops",
     category: "earrings",
     finish: "silver",
@@ -283,7 +294,7 @@ const products = [
     description: "Bold silver dome hoops offering maximum shine and comfort."
   },
   {
-    id: "fc-25",
+    id: "fc-26",
     name: "Silver Italian Charm",
     category: "bracelets",
     finish: "silver",
@@ -294,7 +305,7 @@ const products = [
     description: "Sleek silver Italian charm link bracelet that feels comfortable against the skin."
   },
   {
-    id: "fc-26",
+    id: "fc-27",
     name: "Silver Nail Cuff Bracelet",
     category: "bracelets",
     finish: "silver",
@@ -305,7 +316,7 @@ const products = [
     description: "Edgy and refined silver nail bangle with secure hinge opening."
   },
   {
-    id: "fc-27",
+    id: "fc-28",
     name: "Silver Nomination Bracelet",
     category: "bracelets",
     finish: "silver",
@@ -316,7 +327,7 @@ const products = [
     description: "Polished silver link charm bracelet, comfortable for everyday wear."
   },
   {
-    id: "fc-28",
+    id: "fc-29",
     name: "Silver Bubble Name Necklace",
     category: "necklaces",
     finish: "silver",
@@ -328,7 +339,7 @@ const products = [
     description: "Cute personalised bubble-style name pendant on a delicate silver chain."
   },
   {
-    id: "fc-29",
+    id: "fc-30",
     name: "Silver Clover Cuff",
     category: "bracelets",
     finish: "silver",
@@ -339,7 +350,7 @@ const products = [
     description: "Open silver cuff adorned with lucky clover details."
   },
   {
-    id: "fc-30",
+    id: "fc-31",
     name: "Silver Clover Bracelet",
     category: "bracelets",
     finish: "silver",
@@ -350,7 +361,7 @@ const products = [
     description: "Multi-motif silver clover chain with adjustable length extender."
   },
   {
-    id: "fc-31",
+    id: "fc-32",
     name: "Silver Cuff Bracelet",
     category: "bracelets",
     finish: "silver",
@@ -361,7 +372,7 @@ const products = [
     description: "Clean minimalist silver bangle designed for effortless stacking."
   },
   {
-    id: "fc-32",
+    id: "fc-33",
     name: "Silver Flat Snake Necklace",
     category: "necklaces",
     finish: "silver",
@@ -372,7 +383,7 @@ const products = [
     description: "Flat mirror-finish silver snake chain necklace."
   },
   {
-    id: "fc-33",
+    id: "fc-34",
     name: "Silver Flower Pendant Necklace",
     category: "necklaces",
     finish: "silver",
@@ -383,7 +394,7 @@ const products = [
     description: "Romantic silver flower and pearl drop accent piece."
   },
   {
-    id: "fc-34",
+    id: "fc-35",
     name: "Large Silver Hoops",
     category: "earrings",
     finish: "silver",
@@ -394,7 +405,7 @@ const products = [
     description: "Lightweight, high-impact large silver hoops."
   },
   {
-    id: "fc-35",
+    id: "fc-36",
     name: "Medium Silver Hoops",
     category: "earrings",
     finish: "silver",
@@ -405,7 +416,7 @@ const products = [
     description: "The ultimate classic medium silver hoops for daily wear."
   },
   {
-    id: "fc-36",
+    id: "fc-37",
     name: "Small Silver Hoops",
     category: "earrings",
     finish: "silver",
@@ -414,17 +425,6 @@ const products = [
     inStock: true,
     image: "images/small-silver-hoops.jpg",
     description: "Subtle huggie-style small silver hoops."
-  },
-  {
-    id: "fc-37",
-    name: "White Aurora Bracelet",
-    category: "bracelets",
-    finish: "silver",
-    finishLabel: "Silver-Plated Stainless Steel",
-    price: 190,
-    inStock: true,
-    image: "images/gold-white-aurora-bracelet.jpg",
-    description: "Shimmering clear crystal aurora bracelet set in polished silver."
   },
   {
     id: "fc-38",
