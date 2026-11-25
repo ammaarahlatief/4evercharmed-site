@@ -3,448 +3,233 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>4evercharmed — Pretty Stainless Steel Jewellery in South Africa</title>
-  <meta name="description" content="4evercharmed makes cute, everyday stainless steel charms, bracelets, necklaces, and sets delivered across South Africa via Aramex." />
+  <title>4evercharmed | Cute Stainless Steel Jewellery</title>
+  <meta name="description" content="Pretty gold-plated and silver-plated stainless steel charms, bracelets, necklaces, and gift sets with Aramex delivery across South Africa." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
-
-  <!-- Top Cute Announcement Ribbon -->
-  <div class="top-ribbon">
-    <span>&#10022; Water-friendly stainless steel &middot; Nationwide Aramex delivery (1–2 weeks) &middot; Order straight on WhatsApp &#10022;</span>
+  <!-- Top Pink Ribbon Strip -->
+  <div class="ribbon-strip">
+    <span>&#10047; Gold-plated &amp; silver-plated stainless steel &middot; Aramex delivery in 1 to 2 weeks &middot; Easy WhatsApp orders &#10047;</span>
   </div>
 
   <!-- Header -->
   <header class="site-header" id="siteHeader">
-    <div class="container nav-inner">
-      <a href="#" class="brand" aria-label="4evercharmed Home">
-        <span class="brand-bow" aria-hidden="true">&#10047;</span>
-        <span class="brand-name">4ever<em>charmed</em></span>
+    <div class="container header-row">
+      <a href="#" class="brand-logo">
+        <span class="bow-icon" aria-hidden="true">&#10047;</span>
+        <span>4ever<em>charmed</em></span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+      <button type="button" class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
         <span></span>
         <span></span>
       </button>
 
-      <nav id="primaryNav" class="nav-links" aria-label="Main Menu">
-        <a href="#shop">Charm Bar</a>
-        <a href="#lookbook">Lookbook</a>
-        <a href="#delivery">Delivery</a>
-        <a href="#reviews">Love Notes</a>
-        <a href="#care">Care Tips</a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#collage">Collages</a>
+        <a href="#lookbook-station">Lookbook Station</a>
+        <a href="#charm-bar">Charm Bar</a>
+        <a href="#ordering">Delivery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#care">Care</a>
       </nav>
 
-      <button type="button" class="bag-trigger" id="openBagBtn" aria-label="Open shopping bag">
-        <span class="bag-heart" aria-hidden="true">&#9825;</span>
+      <button type="button" class="bag-pill" id="openBagBtn">
+        <span>&#9825;</span>
         <span>Bag</span>
-        <span class="bag-count" id="bagCount">0</span>
+        <strong id="bagCount">0</strong>
       </button>
     </div>
   </header>
 
   <main>
-    <!-- DREAMY HERO -->
-    <section class="hero">
-      <div class="dream-bg" aria-hidden="true">
-        <span class="blush-orb orb-1"></span>
-        <span class="blush-orb orb-2"></span>
-        <span class="blush-orb orb-3"></span>
-        <span class="sparkle s-1">&#10022;</span>
-        <span class="sparkle s-2">&#10023;</span>
-        <span class="sparkle s-3">&#10022;</span>
-        <span class="sparkle s-4">&#9825;</span>
-      </div>
-
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="coquette-pill reveal">
-            <span class="pill-dot"></span>
-            South Africa &middot; Stainless Steel Jewellery
-          </div>
-
-          <h1 class="reveal delay-1">
-            Little charms &amp; pretty pieces made to stay <em class="rose-shimmer">shiny forever</em>.
-          </h1>
-
-          <p class="hero-lead reveal delay-2">
-            Cute, water-friendly stainless steel bracelets, necklaces, charms, and gift sets you can wear every single day without worrying about tarnish. Pick your favourites, add them to your bag, and send your order straight to WhatsApp.
-          </p>
-
-          <div class="hero-actions reveal delay-3">
-            <a href="#shop" class="btn btn-rose">Explore the Charm Bar</a>
-            <a href="#delivery" class="btn btn-cream">How Ordering Works</a>
-          </div>
-
-          <div class="sweet-badges reveal delay-4">
-            <div class="sweet-badge">
-              <span>&#10022;</span> Tarnish-Resistant Steel
-            </div>
-            <div class="sweet-badge">
-              <span>&#9825;</span> Gift-Ready Packaging
-            </div>
-            <div class="sweet-badge">
-              <span>&#10047;</span> Aramex Door Delivery
-            </div>
-          </div>
+    <!-- Centered Girly Arch Hero -->
+    <section class="hero-section">
+      <div class="container hero-center">
+        <div class="hero-tag">&#10022; Gold-plated &amp; silver-plated faves &#10022;</div>
+        <h1>
+          Pretty charms &amp; shiny pieces that stay <span class="pink-italic">cute every day</span>
+        </h1>
+        <p class="hero-text">
+          Water-friendly gold-plated and silver-plated stainless steel bracelets, charms, necklaces, and gift sets you can wear out and about without stressing over tarnish. Pick your faves, pop them in your bag, and send your order on WhatsApp.
+        </p>
+        <div class="hero-buttons">
+          <a href="#lookbook-station" class="btn-pink">Explore Lookbook Station &#9825;</a>
+          <a href="#charm-bar" class="btn-soft">Shop the Charm Bar</a>
         </div>
 
-        <!-- Floating Coquette Photo Frame -->
-        <div class="hero-visual reveal delay-2">
-          <div class="ribbon-frame">
-            <div class="frame-bow" aria-hidden="true">&#10047;</div>
-            <div class="frame-main-photo">
-              <img src="images/hero-collage.jpg" alt="4evercharmed stainless steel jewellery pieces" />
-            </div>
-            <div class="floating-note note-top">
-              <span class="note-icon">&#10022;</span>
-              <div>
-                <strong>Everyday Shine</strong>
-                <small>No green skin, ever</small>
-              </div>
-            </div>
-            <div class="floating-note note-bottom">
-              <span class="note-icon">&#9825;</span>
-              <div>
-                <strong>1–2 Week Delivery</strong>
-                <small>Tracked via Aramex</small>
-              </div>
-            </div>
+        <div class="arch-showcase">
+          <div class="arch-frame">
+            <span class="arch-bow" aria-hidden="true">&#10047;</span>
+            <img id="heroPhoto" src="images/hero-bg.jpg" alt="4evercharmed stainless steel jewellery hero" />
           </div>
+          <div class="bubble-note bubble-left">&#10022; Gold-plated &amp; silver-plated</div>
+          <div class="bubble-note bubble-right">&#9825; Aramex (1 to 2 weeks)</div>
         </div>
       </div>
     </section>
 
-    <!-- CUTE MARQUEE -->
-    <div class="cute-marquee" aria-hidden="true">
-      <div class="marquee-track">
-        <span>&#10022; Stainless Steel Charms</span>
-        <span>&#9825; Dainty Bracelets</span>
-        <span>&#10047; Layered Necklaces</span>
-        <span>&#10022; Cute Gift Sets</span>
-        <span>&#9825; Nationwide Aramex Delivery</span>
-        <span>&#10047; Tarnish-Resistant &amp; Water-Friendly</span>
-        <span>&#10022; Stainless Steel Charms</span>
-        <span>&#9825; Dainty Bracelets</span>
-        <span>&#10047; Layered Necklaces</span>
-        <span>&#10022; Cute Gift Sets</span>
-        <span>&#9825; Nationwide Aramex Delivery</span>
-        <span>&#10047; Tarnish-Resistant &amp; Water-Friendly</span>
-      </div>
-    </div>
-
-    <!-- INTERACTIVE CHARM BAR / SHOP -->
-    <section id="shop" class="section">
+    <!-- Floating Photo Collage Right Under the Hero -->
+    <section id="collage" class="section-pad pastel-band">
       <div class="container">
-        <div class="section-heading center reveal">
-          <p class="eyebrow">&#10022; The Charm Bar &#10022;</p>
-          <h2>Pick your pretty pieces</h2>
-          <p class="section-sub">Filter by style, tap to add to your bag, and send your list straight through on WhatsApp.</p>
+        <div class="heading-box">
+          <span class="mini-label">&#9825; Top Photo Collage &#9825;</span>
+          <h2>Little moments &amp; stacks</h2>
+          <p>A quick peek at gold-plated and silver-plated stacks and real-life customer shots right up front.</p>
         </div>
 
-        <!-- Pastel Category Pills -->
-        <div class="filter-bar reveal" role="tablist" aria-label="Filter jewellery">
-          <button type="button" class="filter-pill active" data-filter="all">All Pieces &#10022;</button>
-          <button type="button" class="filter-pill" data-filter="bracelets">Bracelets</button>
-          <button type="button" class="filter-pill" data-filter="charms">Charms</button>
-          <button type="button" class="filter-pill" data-filter="necklaces">Necklaces</button>
-          <button type="button" class="filter-pill" data-filter="sets">Gift Sets &#9825;</button>
-        </div>
-
-        <div class="product-grid" id="productGrid">
-          <!-- Item 1 -->
-          <article class="charm-card reveal" data-category="bracelets">
-            <div class="card-media">
-              <span class="card-sticker">Best Seller</span>
-              <img src="images/piece-1.jpg" alt="Dainty Charm Bracelet" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Bracelet</span>
-                <span class="price-tag">R180</span>
-              </div>
-              <h3>Sweetheart Charm Bracelet</h3>
-              <p>Gold-tone stainless steel chain made for stacking or wearing on its own.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Sweetheart Charm Bracelet" data-price="180">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 2 -->
-          <article class="charm-card reveal delay-1" data-category="charms">
-            <div class="card-media">
-              <span class="card-sticker">Cute Pick</span>
-              <img src="images/piece-2.jpg" alt="Coquette Bow Charm" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Charm</span>
-                <span class="price-tag">R85</span>
-              </div>
-              <h3>Coquette Ribbon Bow Charm</h3>
-              <p>Clip-on stainless steel bow charm to dress up any bracelet or necklace.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Coquette Ribbon Bow Charm" data-price="85">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 3 -->
-          <article class="charm-card reveal delay-2" data-category="necklaces">
-            <div class="card-media">
-              <img src="images/piece-3.jpg" alt="Pearl Drop Necklace" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Necklace</span>
-                <span class="price-tag">R210</span>
-              </div>
-              <h3>Pearl &amp; Clover Necklace</h3>
-              <p>Soft pearlescent detail on a dainty tarnish-resistant chain.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Pearl & Clover Necklace" data-price="210">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 4 -->
-          <article class="charm-card reveal" data-category="sets">
-            <div class="card-media">
-              <span class="card-sticker">Gift Fave</span>
-              <img src="images/piece-4.jpg" alt="Angel Stack Set" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Gift Set</span>
-                <span class="price-tag">R340</span>
-              </div>
-              <h3>Dreamy Stack Gift Set</h3>
-              <p>Matching bracelet and necklace duo packed ready for gifting or treating yourself.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Dreamy Stack Gift Set" data-price="340">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 5 -->
-          <article class="charm-card reveal delay-1" data-category="bracelets">
-            <div class="card-media">
-              <img src="images/piece-5.jpg" alt="Clover Link Bracelet" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Bracelet</span>
-                <span class="price-tag">R195</span>
-              </div>
-              <h3>Blush Clover Link Bracelet</h3>
-              <p>Pretty pastel inlay links with an adjustable clasp for a comfy fit.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Blush Clover Link Bracelet" data-price="195">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 6 -->
-          <article class="charm-card reveal delay-2" data-category="charms">
-            <div class="card-media">
-              <img src="images/piece-6.jpg" alt="Initial & Heart Charm" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Charm</span>
-                <span class="price-tag">R90</span>
-              </div>
-              <h3>Tiny Heart Locket Charm</h3>
-              <p>Sweet polished heart charm that mixes effortlessly with gold or silver.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Tiny Heart Locket Charm" data-price="90">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 7 -->
-          <article class="charm-card reveal" data-category="necklaces">
-            <div class="card-media">
-              <img src="images/piece-7.jpg" alt="Layered Bow Choker" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Necklace</span>
-                <span class="price-tag">R220</span>
-              </div>
-              <h3>Double Layer Sparkle Chain</h3>
-              <p>Two dainty chains in one clasp so you get an instant layered look.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="Double Layer Sparkle Chain" data-price="220">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-
-          <!-- Item 8 -->
-          <article class="charm-card reveal delay-1" data-category="sets">
-            <div class="card-media">
-              <span class="card-sticker">New In</span>
-              <img src="images/piece-8.jpg" alt="Build Your Own Charm Bundle" loading="lazy" />
-            </div>
-            <div class="card-body">
-              <div class="card-top-row">
-                <span class="cat-tag">Gift Set</span>
-                <span class="price-tag">R380</span>
-              </div>
-              <h3>4evercharmed Trio Bundle</h3>
-              <p>One base chain plus your choice of three cute charms from our collection.</p>
-              <button type="button" class="btn btn-rose btn-full add-to-bag" data-name="4evercharmed Trio Bundle" data-price="380">
-                Add to Bag &#9825;
-              </button>
-            </div>
-          </article>
-        </div>
+        <div class="collage-row" id="collageRow"></div>
       </div>
     </section>
 
-    <!-- FLOATING PHOTO COLLAGE LOOKBOOK -->
-    <section id="lookbook" class="section section-blush">
+    <!-- Lookbook Station (Includes Charm Bar) -->
+    <section id="lookbook-station" class="section-pad">
       <div class="container">
-        <div class="section-heading center reveal">
-          <p class="eyebrow">&#10047; Lookbook Collage &#10047;</p>
-          <h2>Styled for everyday magic</h2>
-          <p class="section-sub">Mix, stack, and layer your pieces for coffee dates, classes, or dressing up.</p>
+        <div class="heading-box">
+          <span class="mini-label">&#10047; Lookbook Station &#10047;</span>
+          <h2>Style ideas, collections &amp; market days</h2>
+          <p>Browse our Charm Bar, collections, gift pouches, and pop-up moments.</p>
         </div>
 
-        <div class="collage-grid">
-          <figure class="polaroid-card tilt-left reveal">
-            <img src="images/gallery-1.jpg" alt="Stacked bracelets lookbook" loading="lazy" />
-            <figcaption>Golden hour stacks &#10022;</figcaption>
-          </figure>
-          <figure class="polaroid-card tilt-right reveal delay-1">
-            <img src="images/gallery-2.jpg" alt="Charm details close up" loading="lazy" />
-            <figcaption>Sweet charm details &#9825;</figcaption>
-          </figure>
-          <figure class="polaroid-card tilt-left reveal delay-2">
-            <img src="images/gallery-3.jpg" alt="Layered necklaces lookbook" loading="lazy" />
-            <figcaption>Dainty everyday layers &#10047;</figcaption>
-          </figure>
-          <figure class="polaroid-card tilt-right reveal delay-3">
-            <img src="images/gallery-4.jpg" alt="Gift packaging and pieces" loading="lazy" />
-            <figcaption>Packed with love &#10022;</figcaption>
-          </figure>
+        <div class="tabs-row" role="tablist" aria-label="Lookbook station vibes">
+          <button type="button" class="tab-pill lookbook-tab active" data-look="all">All Looks</button>
+          <button type="button" class="tab-pill lookbook-tab" data-look="markets">Market &amp; Pop-Up</button>
+          <button type="button" class="tab-pill lookbook-tab" data-look="collections">Collections &amp; Gifts</button>
+          <button type="button" class="tab-pill lookbook-tab" data-look="display">Display &amp; Everyday</button>
         </div>
+
+        <div class="lookbook-grid" id="lookbookGrid"></div>
       </div>
     </section>
 
-    <!-- DELIVERY & HOW TO ORDER -->
-    <section id="delivery" class="section">
+    <!-- Charm Bar Shop -->
+    <section id="charm-bar" class="section-pad pastel-band">
       <div class="container">
-        <div class="section-heading center reveal">
-          <p class="eyebrow">&#9825; Delivery &amp; Orders &#9825;</p>
-          <h2>How getting your order works</h2>
+        <div class="heading-box">
+          <span class="mini-label">&#10047; Charm Bar &#10047;</span>
+          <h2>Pick what you love</h2>
+          <p>Every piece shows whether it is gold-plated or silver-plated. Tap a tab to filter or add to your bag.</p>
         </div>
 
-        <div class="steps-grid">
-          <article class="ribbon-step reveal">
-            <span class="step-pill">Step 01</span>
-            <h3>Fill Your Bag</h3>
-            <p>Tap <strong>Add to Bag</strong> on the pieces you love, then open your bag to check your items.</p>
-          </article>
+        <div class="tabs-row" role="tablist" aria-label="Jewellery categories">
+          <button type="button" class="tab-pill shop-tab active" data-filter="all">All Pieces</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="bracelets">Bracelets</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="charms">Charms</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="necklaces">Necklaces</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="earrings">Earrings</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="sets">Gift Sets</button>
+        </div>
 
-          <article class="ribbon-step reveal delay-1">
-            <span class="step-pill">Step 02</span>
+        <div class="cards-grid" id="cardsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Delivery & Ordering + POPIA -->
+    <section id="ordering" class="section-pad">
+      <div class="container">
+        <div class="heading-box">
+          <span class="mini-label">&#10022; Aramex Delivery &#10022;</span>
+          <h2>Simple steps to get yours</h2>
+        </div>
+
+        <div class="steps-three">
+          <div class="soft-card">
+            <span class="step-tag">01</span>
+            <h3>Add to Your Bag</h3>
+            <p>Tap <strong>Add to Bag</strong> on the pieces you want and open your bag whenever you're ready.</p>
+          </div>
+
+          <div class="soft-card">
+            <span class="step-tag">02</span>
             <h3>Send on WhatsApp</h3>
-            <p>Hit the WhatsApp order button—your item list fills in automatically so we can confirm stock and payment.</p>
-          </article>
+            <p>Tap the WhatsApp button in your bag so your items are typed out automatically for us to confirm.</p>
+          </div>
 
-          <article class="ribbon-step reveal delay-2">
-            <span class="step-pill">Step 03</span>
-            <h3>Aramex Delivery (1–2 Weeks)</h3>
-            <p>Once paid, your order is packed with care and sent via <strong>Aramex</strong> anywhere in South Africa within <strong>1 to 2 weeks</strong>.</p>
-          </article>
+          <div class="soft-card">
+            <span class="step-tag">03</span>
+            <h3>Aramex in 1 to 2 Weeks</h3>
+            <p>Once paid, your order is sent via <strong>Aramex</strong> across South Africa within <strong>1 to 2 weeks</strong>.</p>
+          </div>
         </div>
 
-        <div class="popia-card reveal">
-          <div class="popia-badge">POPIA &amp; Privacy Note &#9825;</div>
-          <p>
-            Your name, phone number, and delivery address are only used to pack, process, and send your <strong>4evercharmed</strong> order via Aramex. We never share or sell your personal details with anyone else.
-          </p>
+        <div class="popia-box">
+          <strong>POPIA Notice:</strong> We only use your name, contact details, and delivery address to sort out and send your 4evercharmed order via Aramex. We don't pass your details on to anyone else.
         </div>
       </div>
     </section>
 
-    <!-- CUSTOMER LOVE NOTES -->
-    <section id="reviews" class="section section-blush">
+    <!-- Customer Reviews -->
+    <section id="reviews" class="section-pad pastel-band">
       <div class="container">
-        <div class="section-heading center reveal">
-          <p class="eyebrow">&#10022; Love Notes &#10022;</p>
-          <h2>What our girls say</h2>
+        <div class="heading-box">
+          <span class="mini-label">&#9825; Customer Reviews &#9825;</span>
+          <h2>Kind words from buyers</h2>
         </div>
 
-        <div class="reviews-grid">
-          <blockquote class="love-note reveal">
-            <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>“I wear my bracelet in the shower and every day to campus and it still looks brand new! The packaging was also so cute.”</p>
+        <div class="reviews-three">
+          <blockquote class="review-box">
+            <p>“Super cute in real life and hasn't lost its shine at all. Ordering on WhatsApp was easy too.”</p>
             <footer><strong>Amina K.</strong> &middot; Cape Town</footer>
           </blockquote>
 
-          <blockquote class="love-note reveal delay-1">
-            <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>“Ordering on WhatsApp was super quick and my Aramex parcel arrived right on time. Already picking out more charms for my next stack.”</p>
+          <blockquote class="review-box">
+            <p>“My Aramex parcel arrived within the 1 to 2 week window and everything was wrapped so nicely.”</p>
             <footer><strong>Jade M.</strong> &middot; Johannesburg</footer>
           </blockquote>
 
-          <blockquote class="love-note reveal delay-2">
-            <div class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>“Bought the gift set for my best friend's birthday and she was obsessed. Such pretty pieces for the price.”</p>
+          <blockquote class="review-box">
+            <p>“Got a set as a gift and ended up coming back for more charms for myself.”</p>
             <footer><strong>Zara R.</strong> &middot; Durban</footer>
           </blockquote>
         </div>
       </div>
     </section>
 
-    <!-- CARE TIPS ACCORDION -->
-    <section id="care" class="section">
-      <div class="container care-container">
-        <div class="section-heading center reveal">
-          <p class="eyebrow">&#10047; Jewellery Care &amp; FAQ &#10047;</p>
-          <h2>Keeping your pieces sparkling</h2>
+    <!-- Care & Quick Answers -->
+    <section id="care" class="section-pad">
+      <div class="container narrow-box">
+        <div class="heading-box">
+          <span class="mini-label">&#10047; Care &amp; Questions &#10047;</span>
+          <h2>Good to know</h2>
         </div>
 
-        <div class="faq-list reveal">
-          <div class="faq-item">
-            <button type="button" class="faq-question" aria-expanded="false">
-              <span>Can I wear my 4evercharmed pieces in water?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
+        <div class="qa-list">
+          <div class="qa-item">
+            <button type="button" class="qa-btn" aria-expanded="false">
+              <span>Will the gold-plated and silver-plated pieces tarnish?</span>
+              <span class="qa-plus">+</span>
             </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>Yes! Our pieces are made from tarnish-resistant stainless steel, so they hold up well to everyday wear and water. To keep the shine extra bright for years, avoid spraying perfume or lotion directly onto them and wipe them gently with a soft cloth now and then.</p>
+            <div class="qa-panel">
+              <div>
+                <p>They're made with tarnish-resistant stainless steel for everyday wear. Keeping direct perfume sprays off them and wiping them with a soft cloth helps keep them looking fresh even longer.</p>
               </div>
             </div>
           </div>
 
-          <div class="faq-item">
-            <button type="button" class="faq-question" aria-expanded="false">
+          <div class="qa-item">
+            <button type="button" class="qa-btn" aria-expanded="false">
               <span>How long does Aramex delivery take?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
+              <span class="qa-plus">+</span>
             </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>Delivery takes <strong>1 to 2 weeks</strong> via Aramex across South Africa once your order and payment are confirmed. You'll receive tracking details as soon as your parcel is on the way.</p>
+            <div class="qa-panel">
+              <div>
+                <p>Delivery usually takes <strong>1 to 2 weeks</strong> via Aramex across South Africa once your order and payment are confirmed.</p>
               </div>
             </div>
           </div>
 
-          <div class="faq-item">
-            <button type="button" class="faq-question" aria-expanded="false">
-              <span>Can I order a custom charm combo or gift note?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
+          <div class="qa-item">
+            <button type="button" class="qa-btn" aria-expanded="false">
+              <span>Can I ask for a gift note or charm mix?</span>
+              <span class="qa-plus">+</span>
             </button>
-            <div class="faq-answer">
-              <div class="faq-answer-inner">
-                <p>Of course! Just mention which charms you want paired together or include a short gift message when you send your bag through on WhatsApp.</p>
+            <div class="qa-panel">
+              <div>
+                <p>Yes! Just let us know in your WhatsApp message what charms you want or if you're sending it as a gift.</p>
               </div>
             </div>
           </div>
@@ -453,50 +238,55 @@
     </section>
   </main>
 
-  <!-- FOOTER WITH AURA WEB STUDIO CREDIT -->
+  <!-- Footer with Footer Image & Aura Web Studio Credit -->
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <span class="brand-name">4ever<em>charmed</em> &#9825;</span>
-        <p>Pretty stainless steel jewellery delivered across South Africa.</p>
+    <div class="container footer-box">
+      <div class="footer-photo-card">
+        <img id="footerPhoto" src="images/footer-love.jpeg" alt="4evercharmed footer showcase" loading="lazy" />
       </div>
 
-      <div class="footer-links">
-        <a href="#shop">Charm Bar</a>
-        <a href="#lookbook">Lookbook</a>
-        <a href="#delivery">Delivery</a>
-        <a href="#care">Care Tips</a>
+      <div class="footer-top">
+        <div>
+          <strong class="footer-brand">4ever<em>charmed</em> &#9825;</strong>
+          <p>Gold-plated &amp; silver-plated charms, bracelets, necklaces &amp; sets across South Africa.</p>
+        </div>
+        <div class="footer-nav">
+          <a href="#collage">Collages</a>
+          <a href="#lookbook-station">Lookbook Station</a>
+          <a href="#charm-bar">Charm Bar</a>
+          <a href="#ordering">Delivery</a>
+        </div>
       </div>
 
-      <div class="footer-bottom">
+      <div class="footer-end">
         <p>&copy; <span id="year"></span> 4evercharmed. All rights reserved.</p>
-        <p class="studio-credit">
-          Website made by <a href="https://aurawebstudio.co.za" target="_blank" rel="noopener noreferrer">Aura Web Studio</a> &#10022;
+        <p class="credit-line">
+          Made by <a href="https://aurawebstudio.co.za" target="_blank" rel="noopener noreferrer">Aura Web Studio</a> &#10022;
         </p>
       </div>
     </div>
   </footer>
 
-  <!-- SLIDE-OUT CUTE SHOPPING BAG DRAWER -->
-  <div class="bag-backdrop" id="bagBackdrop"></div>
-  <aside class="bag-drawer" id="bagDrawer" aria-label="Your Shopping Bag" aria-hidden="true">
-    <div class="bag-header">
-      <h3>Your Pretty Bag &#9825;</h3>
-      <button type="button" class="close-bag" id="closeBagBtn" aria-label="Close bag">&times;</button>
+  <!-- Bag Backdrop & Drawer -->
+  <div class="bag-overlay" id="bagOverlay"></div>
+  <aside class="bag-panel" id="bagPanel" aria-label="Shopping Bag">
+    <div class="bag-top">
+      <h3>Your Bag &#9825;</h3>
+      <button type="button" class="bag-close" id="closeBagBtn" aria-label="Close bag">&times;</button>
     </div>
 
-    <div class="bag-items" id="bagItems">
-      <p class="bag-empty">Your bag is empty right now. Tap <strong>Add to Bag</strong> on any piece you love!</p>
+    <div class="bag-body" id="bagBody">
+      <p class="empty-msg">Your bag is empty right now. Tap <strong>Add to Bag</strong> on any piece!</p>
     </div>
 
-    <div class="bag-footer">
-      <div class="bag-total-row">
+    <div class="bag-bottom">
+      <div class="bag-sum">
         <span>Items Total</span>
         <strong id="bagTotal">R0</strong>
       </div>
-      <p class="bag-delivery-note">Aramex nationwide delivery (1–2 weeks) confirmed on WhatsApp.</p>
-      <a id="whatsappOrderBtn" href="https://wa.me/?text=Hi%204evercharmed!%20I'd%20love%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer" class="btn btn-rose btn-full">
-        Order Bag on WhatsApp &#10022;
+      <p class="bag-note">Aramex delivery (1 to 2 weeks) confirmed on WhatsApp.</p>
+      <a id="waOrderLink" href="https://wa.me/27686726508?text=Hi%204evercharmed!%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer" class="btn-pink btn-full">
+        Send Order on WhatsApp &#10022;
       </a>
     </div>
   </aside>
