@@ -185,7 +185,7 @@ img {
   width: 100%;
 }
 
-/* Centered Girly Arch Hero */
+/* Centered Arch Hero */
 .hero-section {
   padding: 54px 0 72px;
 }
@@ -365,10 +365,10 @@ h2 {
   color: #FFFFFF;
 }
 
-/* Top Collage */
-.collage-row {
+/* Collages Grid */
+.collage-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -381,12 +381,12 @@ h2 {
   box-shadow: var(--shadow);
 }
 
-.rot-a { transform: rotate(-1.4deg); }
-.rot-b { transform: rotate(1.4deg); }
+.rot-a { transform: rotate(-1.1deg); }
+.rot-b { transform: rotate(1.1deg); }
 
 .scrap-photo img {
   width: 100%;
-  aspect-ratio: 4 / 4.4;
+  aspect-ratio: 4 / 4.3;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 10px;
@@ -396,13 +396,13 @@ h2 {
   text-align: center;
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 1.12rem;
+  font-size: 1.15rem;
 }
 
-/* Lookbook Station */
+/* Lookbook Grid (Non-shop showcase) */
 .lookbook-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -421,7 +421,7 @@ h2 {
 }
 
 .look-photo {
-  aspect-ratio: 4 / 4.3;
+  aspect-ratio: 4 / 4.2;
   background: var(--bg-pink);
 }
 
@@ -432,7 +432,7 @@ h2 {
 }
 
 .look-body {
-  padding: 15px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -452,14 +452,59 @@ h2 {
 
 .look-body h3 {
   margin: 0 0 6px;
-  font-size: 1rem;
+  font-size: 1.02rem;
 }
 
 .look-body p {
-  margin: 0 0 12px;
-  font-size: 0.85rem;
+  margin: 0;
+  font-size: 0.86rem;
   color: var(--ink-soft);
-  flex: 1;
+}
+
+/* Charm Bar Showcase Card (No Price) */
+.charm-bar-feature {
+  margin-bottom: 34px;
+}
+
+.charm-bar-card {
+  max-width: 780px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border: 1.5px solid var(--line);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.charm-bar-photo {
+  aspect-ratio: 4 / 4.2;
+  background: var(--bg-cream);
+}
+
+.charm-bar-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.charm-bar-copy {
+  padding: 24px;
+}
+
+.charm-bar-copy h3 {
+  margin: 0 0 8px;
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.charm-bar-copy p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
 }
 
 /* Shop Cards */
@@ -913,9 +958,13 @@ h2 {
 
 @media (max-width: 900px) {
   .cards-grid,
-  .collage-row,
+  .collage-grid,
   .lookbook-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .charm-bar-card {
+    grid-template-columns: 1fr;
   }
 
   .steps-three,
@@ -947,7 +996,7 @@ h2 {
 
 @media (max-width: 540px) {
   .cards-grid,
-  .collage-row,
+  .collage-grid,
   .lookbook-grid {
     grid-template-columns: 1fr;
   }
