@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var FOOTER_IMAGE = "images/footer-love.jpeg";
 
   var CHARM_BAR_FEATURE = {
-    img: "images/charm-bar.jpg.jpeg",
+    img: "images/charm-bar.jpg",
     tag: "Charm Bar Showcase",
     title: "Mix & match charms (Gold-plated & Silver-plated)",
     desc: "Pink velvet tray filled with gold-plated and silver-plated charm links alongside stacked gold-plated and silver-plated link bracelets on the display stand."
@@ -99,6 +99,13 @@ document.addEventListener("DOMContentLoaded", function () {
       vibeLabel: "Display",
       img: "images/pink-display-chains.jpg",
       note: "Gold-plated & silver-plated chains styled on our pink display."
+    },
+    {
+      title: "Wrist Stack",
+      vibe: "stack",
+      vibeLabel: "Stacking Inspiration",
+      img: "images/wrist-stack.jpg",
+      note: "Gold-plated wrist stack inspiration ready to recreate."
     }
   ];
 
@@ -120,7 +127,6 @@ document.addEventListener("DOMContentLoaded", function () {
     { name: "Twisty Gold Bracelet", category: "bracelets", price: 185, badge: "Gold-plated", img: "images/twisty-gold-bracelet.jpg", desc: "Gold-plated twisted band that catches the light." },
     { name: "Twisty Silver Bracelet", category: "bracelets", price: 185, badge: "Silver-plated", img: "images/twisty-silver-bracelet.jpg", desc: "Silver-plated twisted band for everyday styling." },
     { name: "Wrist Stack", category: "bracelets", price: 280, badge: "Gold-plated", img: "images/wrist-stack.jpg", desc: "Gold-plated wrist stack inspiration ready to recreate." },
-
     { name: "Gold Italian Charm Bracelet", category: "bracelets", price: 240, badge: "Gold-plated", img: "images/gold-italian-charm-bracelet.jpg", desc: "Gold-plated Italian charm bracelet you can build your way." },
     { name: "Gold Nomination Bracelet", category: "bracelets", price: 230, badge: "Gold-plated", img: "images/gold-nomination-bracelet.jpg", desc: "Gold-plated link charm bracelet with cute custom links." },
     { name: "Silver Italian Charm Bracelet", category: "bracelets", price: 240, badge: "Silver-plated", img: "images/silver-italian-charm-bracelet.jpg", desc: "Silver-plated Italian charm links with cute motifs." },
@@ -148,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { name: "Large Silver Hoops", category: "earrings", price: 180, badge: "Silver-plated", img: "images/large-silver-hoops.jpg", desc: "Silver-plated larger hoops for a bold, cute finish." },
     { name: "Medium Gold Hoops", category: "earrings", price: 165, badge: "Gold-plated", img: "images/medium-gold-hoops.jpg", desc: "Gold-plated medium hoops for day or night." },
     { name: "Medium Silver Hoops", category: "earrings", price: 165, badge: "Silver-plated", img: "images/medium-silver-hoops.jpg", desc: "Silver-plated everyday medium hoops." },
-    { name: "Silver Hoops", category: "earrings", price： 155, badge: "Silver-plated", img: "images/silver-hoops.jpg", desc："Silver-plated versatile hoops for daily wear." },
+    { name: "Silver Hoops", category: "earrings", price: 155, badge: "Silver-plated", img: "images/silver-hoops.jpg", desc: "Silver-plated versatile hoops for daily wear." },
     { name: "Silver Pearl Earrings", category: "earrings", price: 165, badge: "Silver-plated", img: "images/silver-pearl-earrings.jpg", desc: "Silver-plated earrings with a pearl touch." },
     { name: "Small Gold Hoops", category: "earrings", price: 145, badge: "Gold-plated", img: "images/small-gold-hoops.jpg", desc: "Gold-plated small hoops for sweet ear stacks." },
     { name: "Small Silver Hoops (Silver-plated)", category: "earrings", price: 145, badge: "Silver-plated", img: "images/small-silver-hoops.jpg", desc: "Silver-plated small hoops that sit close and neat." }
