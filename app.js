@@ -59,13 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
       note: "Gold-plated & silver-plated pearl pieces curated for girly layering."
     },
     {
-      title: "Market Display",
-      vibe: "markets",
-      vibeLabel: "Market & Pop-Up",
-      img: "images/market-display.jpg",
-      note: "Gold-plated & silver-plated pieces laid out on our market table."
-    },
-    {
       title: "Market Family",
       vibe: "markets",
       vibeLabel: "Market & Pop-Up",

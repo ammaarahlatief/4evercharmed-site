@@ -30,6 +30,7 @@
       </button>
 
       <nav class="nav-menu" id="navMenu">
+        <a href="#shop">Shop</a>
         <a href="#collage">Collages</a>
         <a href="#lookbook">Lookbook</a>
         <a href="#charm-bar">Charm Bar</a>
@@ -58,8 +59,8 @@
           Water-friendly gold-plated and silver-plated stainless steel bracelets, charms, necklaces, and hoops you can wear out and about without stressing over tarnish. Pick your faves, pop them in your bag, and send your order on WhatsApp.
         </p>
         <div class="hero-buttons">
-          <a href="#lookbook" class="btn-pink">Explore Lookbook &#9825;</a>
-          <a href="#charm-bar" class="btn-soft">Shop the Charm Bar</a>
+          <a href="#shop" class="btn-pink">Shop Pieces &#9825;</a>
+          <a href="#lookbook" class="btn-soft">Explore Lookbook</a>
         </div>
 
         <div class="arch-showcase">
@@ -73,8 +74,28 @@
       </div>
     </section>
 
+    <!-- Shoppable Catalogue (Moved Right Up) -->
+    <section id="shop" class="section-pad pastel-band">
+      <div class="container">
+        <div class="heading-box">
+          <span class="mini-label">&#9825; Shop Pieces &#9825;</span>
+          <h2>Tap to add to your bag</h2>
+          <p>Gold-plated and silver-plated stainless steel pieces ready for WhatsApp ordering and Aramex delivery in 1 to 10 days.</p>
+        </div>
+
+        <div class="tabs-row" role="tablist" aria-label="Jewellery categories">
+          <button type="button" class="tab-pill shop-tab active" data-filter="all">All Pieces</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="bracelets">Bracelets</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="necklaces">Necklaces</button>
+          <button type="button" class="tab-pill shop-tab" data-filter="earrings">Earrings</button>
+        </div>
+
+        <div class="cards-grid" id="cardsGrid"></div>
+      </div>
+    </section>
+
     <!-- Collages Section -->
-    <section id="collage" class="section-pad pastel-band">
+    <section id="collage" class="section-pad">
       <div class="container">
         <div class="heading-box">
           <span class="mini-label">&#9825; Collages &#9825;</span>
@@ -87,7 +108,7 @@
     </section>
 
     <!-- Lookbook Section -->
-    <section id="lookbook" class="section-pad">
+    <section id="lookbook" class="section-pad pastel-band">
       <div class="container">
         <div class="heading-box">
           <span class="mini-label">&#10047; Lookbook &#10047;</span>
@@ -106,31 +127,21 @@
       </div>
     </section>
 
-    <!-- Charm Bar Section + Catalogue -->
-    <section id="charm-bar" class="section-pad pastel-band">
+    <!-- Charm Bar Feature Section -->
+    <section id="charm-bar" class="section-pad">
       <div class="container">
         <div class="heading-box">
           <span class="mini-label">&#10047; Charm Bar &#10047;</span>
-          <h2>Charm Bar &amp; Catalogue</h2>
-          <p>See our charm tray and bracelet stack up close, or tap a tab below to filter shoppable pieces.</p>
+          <h2>Charm Bar showcase</h2>
+          <p>See our charm tray and bracelet stack up close.</p>
         </div>
 
-        <!-- Charm Bar Photo Feature (No Price) -->
         <div class="charm-bar-feature" id="charmBarFeature"></div>
-
-        <div class="tabs-row" role="tablist" aria-label="Jewellery categories">
-          <button type="button" class="tab-pill shop-tab active" data-filter="all">All Pieces</button>
-          <button type="button" class="tab-pill shop-tab" data-filter="bracelets">Bracelets</button>
-          <button type="button" class="tab-pill shop-tab" data-filter="necklaces">Necklaces</button>
-          <button type="button" class="tab-pill shop-tab" data-filter="earrings">Earrings</button>
-        </div>
-
-        <div class="cards-grid" id="cardsGrid"></div>
       </div>
     </section>
 
     <!-- Delivery & Ordering + POPIA -->
-    <section id="ordering" class="section-pad">
+    <section id="ordering" class="section-pad pastel-band">
       <div class="container">
         <div class="heading-box">
           <span class="mini-label">&#10022; Aramex Delivery &#10022;</span>
@@ -164,7 +175,7 @@
     </section>
 
     <!-- Customer Reviews -->
-    <section id="reviews" class="section-pad pastel-band">
+    <section id="reviews" class="section-pad">
       <div class="container">
         <div class="heading-box">
           <span class="mini-label">&#9825; Customer Reviews &#9825;</span>
@@ -191,7 +202,7 @@
     </section>
 
     <!-- Care & Quick Answers -->
-    <section id="care" class="section-pad">
+    <section id="care" class="section-pad pastel-band">
       <div class="container narrow-box">
         <div class="heading-box">
           <span class="mini-label">&#10047; Care &amp; Questions &#10047;</span>
@@ -252,9 +263,9 @@
           <p>Gold-plated &amp; silver-plated charms, bracelets, necklaces &amp; hoops across South Africa.</p>
         </div>
         <div class="footer-nav">
+          <a href="#shop">Shop</a>
           <a href="#collage">Collages</a>
           <a href="#lookbook">Lookbook</a>
-          <a href="#charm-bar">Charm Bar</a>
           <a href="#ordering">Delivery</a>
         </div>
       </div>
