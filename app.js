@@ -110,54 +110,71 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   var CATALOG_ITEMS = [
-    { name: "Dainty Flower Bracelets", category: "bracelets", price: 185, badge: "Gold-plated", img: "images/dainty-flower-bracelets.jpg", desc: "Gold-plated floral links for a soft everyday wrist stack." },
-    { name: "Gold Closed Clover Bracelet", category: "bracelets", price: 195, badge: "Gold-plated", img: "images/gold-closed-clover-bracelet.jpg", desc: "Gold-plated closed clover bracelet with a neat finish." },
-    { name: "Gold Clover Bracelet", category: "bracelets", price: 195, badge: "Gold-plated", img: "images/gold-clover-bracelet.jpg", desc: "Gold-plated clover charm bracelet ready for everyday wear." },
-    { name: "Gold Clover Cuff Bracelet", category: "bracelets", price: 210, badge: "Gold-plated", img: "images/gold-clover-cuff-bracelet.jpg", desc: "Gold-plated open cuff topped with sweet clover detail." },
-    { name: "Gold Cuff Bracelet", category: "bracelets", price: 190, badge: "Gold-plated", img: "images/gold-cuff-bracelet.jpg", desc: "Gold-plated cuff that pairs easily with other bands." },
-    { name: "Gold Nail Cuff Bracelet", category: "bracelets", price: 215, badge: "Gold-plated", img: "images/gold-nail-cuff-bracelet.jpg", desc: "Gold-plated nail cuff silhouette in stainless steel." },
-    { name: "Gold White Aurora Bracelet", category: "bracelets", price: 205, badge: "Gold-plated", img: "images/gold-white-aurora-bracelet.jpg", desc: "Gold-plated bracelet with soft white aurora shine." },
-    { name: "Pink Aurora Bracelet", category: "bracelets", price: 205, badge: "Gold-plated", img: "images/pink-aurora-bracelet.jpg", desc: "Gold-plated bracelet with sweet pink aurora detail." },
-    { name: "Pink Flower Bracelet", category: "bracelets", price: 190, badge: "Gold-plated", img: "images/pink-flower-bracelet.jpg", desc: "Gold-plated pink flower bracelet for everyday stacks." },
-    { name: "Red Flower Bracelet", category: "bracelets", price: 190, badge: "Gold-plated", img: "images/red-flower-bracelet.jpg", desc: "Gold-plated bracelet with red flower charm detail." },
-    { name: "Silver Clover Bracelet", category: "bracelets", price: 195, badge: "Silver-plated", img: "images/silver-clover-bracelet.jpg", desc: "Silver-plated clover bracelet for effortless wear." },
-    { name: "Silver Clover Cuff Bracelet", category: "bracelets", price: 210, badge: "Silver-plated", img: "images/silver-clover-cuff-bracelet.jpg", desc: "Silver-plated open cuff finished with clover charms." },
-    { name: "Silver Cuff Bracelet", category: "bracelets", price: 190, badge: "Silver-plated", img: "images/silver-cuff-bracelet.jpg", desc: "Silver-plated cuff for mixing and matching." },
-    { name: "Silver Nail Cuff Bracelet", category: "bracelets", price: 215, badge: "Silver-plated", img: "images/silver-nail-cuff-bracelet.jpg", desc: "Silver-plated nail cuff with a clean polished look." },
-    { name: "Twisty Gold Bracelet", category: "bracelets", price: 185, badge: "Gold-plated", img: "images/twisty-gold-bracelet.jpg", desc: "Gold-plated twisted band that catches the light." },
-    { name: "Twisty Silver Bracelet", category: "bracelets", price: 185, badge: "Silver-plated", img: "images/twisty-silver-bracelet.jpg", desc: "Silver-plated twisted band for everyday styling." },
-    { name: "Wrist Stack", category: "bracelets", price: 280, badge: "Gold-plated", img: "images/wrist-stack.jpg", desc: "Gold-plated wrist stack inspiration ready to recreate." },
-    { name: "Gold Italian Charm Bracelet", category: "bracelets", price: 240, badge: "Gold-plated", img: "images/gold-italian-charm-bracelet.jpg", desc: "Gold-plated Italian charm bracelet you can build your way." },
-    { name: "Gold Nomination Bracelet", category: "bracelets", price: 230, badge: "Gold-plated", img: "images/gold-nomination-bracelet.jpg", desc: "Gold-plated link charm bracelet with cute custom links." },
-    { name: "Silver Italian Charm Bracelet", category: "bracelets", price: 240, badge: "Silver-plated", img: "images/silver-italian-charm-bracelet.jpg", desc: "Silver-plated Italian charm links with cute motifs." },
-    { name: "Silver Nomination Bracelet", category: "bracelets", price: 230, badge: "Silver-plated", img: "images/silver-nomination-bracelet.jpg", desc: "Silver-plated link charm bracelet for personal charm mixes." },
+    { name: "Dainty Flower Bracelets", category: "bracelets", price: 120, badge: "Gold-plated", img: "images/dainty-flower-bracelets.jpg", desc: "Gold-plated floral links for a soft everyday wrist stack." },
+    { name: "Gold Closed Clover Bracelet", category: "bracelets", price: 120, badge: "Gold-plated", img: "images/gold-closed-clover-bracelet.jpg", desc: "Gold-plated closed clover bracelet with a neat finish." },
+    { name: "Gold Clover Bracelet", category: "bracelets", price: 160, badge: "Gold-plated", img: "images/gold-clover-bracelet.jpg", desc: "Gold-plated clover charm bracelet ready for everyday wear." },
+    { name: "Gold Clover Cuff Bracelet", category: "bracelets", price: 120, badge: "Gold-plated", img: "images/gold-clover-cuff-bracelet.jpg", desc: "Gold-plated open cuff topped with sweet clover detail." },
+    { name: "Gold Cuff Bracelet", category: "bracelets", price: 120, badge: "Gold-plated", img: "images/gold-cuff-bracelet.jpg", desc: "Gold-plated cuff that pairs easily with other bands." },
+    { name: "Gold Nail Cuff Bracelet", category: "bracelets", price: 120, badge: "Gold-plated", img: "images/gold-nail-cuff-bracelet.jpg", desc: "Gold-plated nail cuff silhouette in stainless steel." },
+    { name: "Gold White Aurora Bracelet", category: "bracelets", price: 180, badge: "Gold-plated", img: "images/gold-white-aurora-bracelet.jpg", desc: "Gold-plated bracelet with soft white aurora shine." },
+    { name: "Pink Aurora Bracelet", category: "bracelets", price: 190, badge: "Gold-plated", img: "images/pink-aurora-bracelet.jpg", desc: "Gold-plated bracelet with sweet pink aurora detail." },
+    { name: "Pink Flower Bracelet", category: "bracelets", price: 130, badge: "Gold-plated", img: "images/pink-flower-bracelet.jpg", desc: "Gold-plated pink flower bracelet for everyday stacks." },
+    { name: "Red Flower Bracelet", category: "bracelets", price: 130, badge: "Gold-plated", img: "images/red-flower-bracelet.jpg", desc: "Gold-plated bracelet with red flower charm detail." },
+    { name: "Silver Clover Bracelet", category: "bracelets", price: 150, badge: "Silver-plated", img: "images/silver-clover-bracelet.jpg", desc: "Silver-plated clover bracelet for effortless wear." },
+    { name: "Silver Clover Cuff Bracelet", category: "bracelets", price: 150, badge: "Silver-plated", img: "images/silver-clover-cuff-bracelet.jpg", desc: "Silver-plated open cuff finished with clover charms." },
+    { name: "Silver Cuff Bracelet", category: "bracelets", price: 150, badge: "Silver-plated", img: "images/silver-cuff-bracelet.jpg", desc: "Silver-plated cuff for mixing and matching." },
+    { name: "Silver Nail Cuff Bracelet", category: "bracelets", price: 150, badge: "Silver-plated", img: "images/silver-nail-cuff-bracelet.jpg", desc: "Silver-plated nail cuff with a clean polished look." },
+    { name: "Twisty Gold Bracelet", category: "bracelets", price: 120, badge: "Gold-plated", img: "images/twisty-gold-bracelet.jpg", desc: "Gold-plated twisted band that catches the light." },
+    { name: "Twisty Silver Bracelet", category: "bracelets", price: 110, badge: "Silver-plated", img: "images/twisty-silver-bracelet.jpg", desc: "Silver-plated twisted band for everyday styling." },
+    { name: "Gold Italian Charm Bracelet", category: "bracelets", price: 160, badge: "Gold-plated", img: "images/gold-italian-charm-bracelet.jpg", desc: "Gold-plated Italian charm bracelet you can build your way." },
+    { name: "Gold Nomination Bracelet", category: "bracelets", price: 250, badge: "Gold-plated", img: "images/gold-nomination-bracelet.jpg", desc: "Gold-plated link charm bracelet with cute custom links." },
+    { name: "Silver Italian Charm Bracelet", category: "bracelets", price: 150, badge: "Silver-plated", img: "images/silver-italian-charm-bracelet.jpg", desc: "Silver-plated Italian charm links with cute motifs." },
+    { name: "Silver Nomination Bracelet", category: "bracelets", price: 250, badge: "Silver-plated", img: "images/silver-nomination-bracelet.jpg", desc: "Silver-plated link charm bracelet for personal charm mixes." },
 
-    { name: "2D Gold Name Necklace", category: "necklaces", price: 225, badge: "Gold-plated", img: "images/2d-gold-name-necklace.jpg", desc: "Gold-plated name necklace for everyday layers." },
-    { name: "2D Silver Name Necklace", category: "necklaces", price: 225, badge: "Silver-plated", img: "images/2d-silver-name-necklace.jpg", desc: "Silver-plated name necklace with a dainty chain." },
-    { name: "Gold Bubble Name Necklace", category: "necklaces", price: 235, badge: "Gold-plated", img: "images/gold-bubble-name-necklace.jpg", desc: "Gold-plated rounded bubble lettering on a dainty chain." },
-    { name: "Gold Flat Snake Necklace", category: "necklaces", price: 210, badge: "Gold-plated", img: "images/gold-flat-snake-necklace.jpg", desc: "Gold-plated flat snake chain for clean everyday wear." },
-    { name: "Gold Flower Pearl Necklace", category: "necklaces", price: 220, badge: "Gold-plated", img: "images/gold-flower-pearl-necklace.jpg", desc: "Gold-plated flower and pearl accent on a fine chain." },
-    { name: "Gold Infinity Name Necklace", category: "necklaces", price: 230, badge: "Gold-plated", img: "images/gold-infinity-name-necklace.jpg", desc: "Gold-plated infinity name necklace for gifting or keeping." },
-    { name: "Gold Pearl Necklace", category: "necklaces", price: 215, badge: "Gold-plated", img: "images/gold-pearl-necklace.jpg", desc: "Gold-plated chain finished with a soft pearl touch." },
-    { name: "Silver Bubble Name Necklace", category: "necklaces", price: 235, badge: "Silver-plated", img: "images/silver-bubble-name-necklace.jpg", desc: "Silver-plated bubble lettering on a fresh silver chain." },
-    { name: "Silver Flat Snake Necklace", category: "necklaces", price: 210, badge: "Silver-plated", img: "images/silver-flat-snake-necklace.jpg", desc: "Silver-plated flat snake chain for easy layering." },
-    { name: "Silver Flower Pearl Necklace", category: "necklaces", price: 220, badge: "Silver-plated", img: "images/silver-flower-pearl-necklace.jpg", desc: "Silver-plated floral and pearl charm detail on a fine chain." },
-    { name: "Silver Pearl Necklace", category: "necklaces", price: 215, badge: "Silver-plated", img: "images/silver-pearl-necklace.jpg", desc: "Silver-plated chain with a dainty pearl accent." },
-    { name: "Twisty Gold Necklace", category: "necklaces", price: 200, badge: "Gold-plated", img: "images/twisty-gold-necklace.jpg", desc: "Gold-plated twisted necklace that shines gently on its own." },
-    { name: "Twisty Silver Necklace", category: "necklaces", price: 200, badge: "Silver-plated", img: "images/twisty-silver-necklace.jpg", desc: "Silver-plated twisted chain for easy daily wear." },
+    { name: "2D Gold Name Necklace", category: "necklaces", price: 320, badge: "Gold-plated", img: "images/2d-gold-name-necklace.jpg", desc: "Gold-plated name necklace for everyday layers." },
+    { name: "2D Silver Name Necklace", category: "necklaces", price: 320, badge: "Silver-plated", img: "images/2d-silver-name-necklace.jpg", desc: "Silver-plated name necklace with a dainty chain." },
+    { name: "Gold Bubble Name Necklace", category: "necklaces", price: 280, badge: "Gold-plated", img: "images/gold-bubble-name-necklace.jpg", desc: "Gold-plated rounded bubble lettering on a dainty chain." },
+    { name: "Gold Flat Snake Necklace", category: "necklaces", price: 150, badge: "Gold-plated", img: "images/gold-flat-snake-necklace.jpg", desc: "Gold-plated flat snake chain for clean everyday wear." },
+    { name: "Gold Flower Pearl Necklace", category: "necklaces", price: 130, badge: "Gold-plated", img: "images/gold-flower-pearl-necklace.jpg", desc: "Gold-plated flower and pearl accent on a fine chain." },
+    {
+      name: "Infinity Name Necklace",
+      category: "necklaces",
+      price: 250,
+      badge: "Gold-plated",
+      img: "images/gold-infinity-name-necklace.jpg",
+      desc: "Custom infinity name necklace. Pick how many names and your finish below.",
+      isInfinityCustom: true,
+      nameOptions: [
+        { label: "1 Name", price: 250 },
+        { label: "2 Names", price: 350 },
+        { label: "3 Names", price: 450 },
+        { label: "4 Names", price: 550 }
+      ],
+      finishOptions: [
+        "Gold-plated",
+        "Silver-plated",
+        "Gold shimmer",
+        "Silver shimmer"
+      ]
+    },
+    { name: "Gold Pearl Necklace", category: "necklaces", price: 130, badge: "Gold-plated", img: "images/gold-pearl-necklace.jpg", desc: "Gold-plated chain finished with a soft pearl touch." },
+    { name: "Silver Bubble Name Necklace", category: "necklaces", price: 280, badge: "Silver-plated", img: "images/silver-bubble-name-necklace.jpg", desc: "Silver-plated bubble lettering on a fresh silver chain." },
+    { name: "Silver Flat Snake Necklace", category: "necklaces", price: 140, badge: "Silver-plated", img: "images/silver-flat-snake-necklace.jpg", desc: "Silver-plated flat snake chain for easy layering." },
+    { name: "Silver Flower Pearl Necklace", category: "necklaces", price: 120, badge: "Silver-plated", img: "images/silver-flower-pearl-necklace.jpg", desc: "Silver-plated floral and pearl charm detail on a fine chain." },
+    { name: "Silver Pearl Necklace", category: "necklaces", price: 120, badge: "Silver-plated", img: "images/silver-pearl-necklace.jpg", desc: "Silver-plated chain with a dainty pearl accent." },
+    { name: "Twisty Gold Necklace", category: "necklaces", price: 150, badge: "Gold-plated", img: "images/twisty-gold-necklace.jpg", desc: "Gold-plated twisted necklace that shines gently on its own." },
+    { name: "Twisty Silver Necklace", category: "necklaces", price: 140, badge: "Silver-plated", img: "images/twisty-silver-necklace.jpg", desc: "Silver-plated twisted chain for easy daily wear." },
 
-    { name: "Chunky Gold Hoop Earrings", category: "earrings", price: 170, badge: "Gold-plated", img: "images/chunky-gold-hoop-earrings.jpg", desc: "Gold-plated chunky hoops that feel light and easy to wear." },
-    { name: "Chunky Silver Hoop Earrings", category: "earrings", price: 170, badge: "Silver-plated", img: "images/chunky-silver-hoop-earrings.jpg", desc: "Silver-plated chunky hoops for an effortless everyday look." },
-    { name: "Gold Hoops", category: "earrings", price: 155, badge: "Gold-plated", img: "images/gold-hoops.jpg", desc: "Gold-plated classic hoops that go with any outfit." },
-    { name: "Gold Pearl Earrings", category: "earrings", price: 165, badge: "Gold-plated", img: "images/gold-pearl-earrings.jpg", desc: "Gold-plated earrings finished with pearls." },
-    { name: "Large Gold Hoops", category: "earrings", price: 180, badge: "Gold-plated", img: "images/large-gold-hoops.jpg", desc: "Gold-plated statement hoops with a clean silhouette." },
-    { name: "Large Silver Hoops", category: "earrings", price: 180, badge: "Silver-plated", img: "images/large-silver-hoops.jpg", desc: "Silver-plated larger hoops for a bold, cute finish." },
-    { name: "Medium Gold Hoops", category: "earrings", price: 165, badge: "Gold-plated", img: "images/medium-gold-hoops.jpg", desc: "Gold-plated medium hoops for day or night." },
-    { name: "Medium Silver Hoops", category: "earrings", price: 165, badge: "Silver-plated", img: "images/medium-silver-hoops.jpg", desc: "Silver-plated everyday medium hoops." },
-    { name: "Silver Hoops", category: "earrings", price: 155, badge: "Silver-plated", img: "images/silver-hoops.jpg", desc: "Silver-plated versatile hoops for daily wear." },
-    { name: "Silver Pearl Earrings", category: "earrings", price: 165, badge: "Silver-plated", img: "images/silver-pearl-earrings.jpg", desc: "Silver-plated earrings with a pearl touch." },
-    { name: "Small Gold Hoops", category: "earrings", price: 145, badge: "Gold-plated", img: "images/small-gold-hoops.jpg", desc: "Gold-plated small hoops for sweet ear stacks." },
-    { name: "Small Silver Hoops (Silver-plated)", category: "earrings", price: 145, badge: "Silver-plated", img: "images/small-silver-hoops.jpg", desc: "Silver-plated small hoops that sit close and neat." }
+    { name: "Chunky Gold Hoop Earrings", category: "earrings", price: 140, badge: "Gold-plated", img: "images/chunky-gold-hoop-earrings.jpg", desc: "Gold-plated chunky hoops that feel light and easy to wear." },
+    { name: "Chunky Silver Hoop Earrings", category: "earrings", price: 140, badge: "Silver-plated", img: "images/chunky-silver-hoop-earrings.jpg", desc: "Silver-plated chunky hoops for an effortless everyday look." },
+    { name: "Gold Pearl Earrings", category: "earrings", price: 100, badge: "Gold-plated", img: "images/gold-pearl-earrings.jpg", desc: "Gold-plated earrings finished with pearls." },
+    { name: "Large Gold Hoops", category: "earrings", price: 90, badge: "Gold-plated", img: "images/large-gold-hoops.jpg", desc: "Gold-plated statement hoops with a clean silhouette." },
+    { name: "Large Silver Hoops", category: "earrings", price: 80, badge: "Silver-plated", img: "images/large-silver-hoops.jpg", desc: "Silver-plated larger hoops for a bold, cute finish." },
+    { name: "Medium Gold Hoops", category: "earrings", price: 80, badge: "Gold-plated", img: "images/medium-gold-hoops.jpg", desc: "Gold-plated medium hoops for day or night." },
+    { name: "Medium Silver Hoops", category: "earrings", price: 70, badge: "Silver-plated", img: "images/medium-silver-hoops.jpg", desc: "Silver-plated everyday medium hoops." },
+    { name: "Silver Pearl Earrings", category: "earrings", price: 90, badge: "Silver-plated", img: "images/silver-pearl-earrings.jpg", desc: "Silver-plated earrings with a pearl touch." },
+    { name: "Small Gold Hoops", category: "earrings", price: 70, badge: "Gold-plated", img: "images/small-gold-hoops.jpg", desc: "Gold-plated small hoops for sweet ear stacks." },
+    { name: "Small Silver Hoops", category: "earrings", price: 60, badge: "Silver-plated", img: "images/small-silver-hoops.jpg", desc: "Silver-plated small hoops that sit close and neat." }
   ];
 
   var yearEl = document.getElementById("year");
@@ -220,6 +237,47 @@ document.addEventListener("DOMContentLoaded", function () {
   if (cardsGrid) {
     cardsGrid.innerHTML = CATALOG_ITEMS.map(function (item) {
       var catLabel = item.category.charAt(0).toUpperCase() + item.category.slice(1);
+      var initialName = item.name;
+      var initialPrice = Number(item.price);
+      var variantHtml = "";
+
+      if (item.isInfinityCustom) {
+        var defaultNameOpt = item.nameOptions[0];
+        var defaultFinish = item.finishOptions[0];
+        initialPrice = defaultNameOpt.price;
+        initialName = item.name + " (" + defaultNameOpt.label + ", " + defaultFinish + ")";
+
+        var nameButtons = item.nameOptions.map(function (opt, idx) {
+          return (
+            '<button type="button" class="variant-pill name-opt-btn' + (idx === 0 ? " active" : "") + '" ' +
+              'data-name-label="' + opt.label + '" data-price="' + opt.price + '">' +
+              opt.label +
+            "</button>"
+          );
+        }).join("");
+
+        var finishButtons = item.finishOptions.map(function (fin, idx) {
+          return (
+            '<button type="button" class="variant-pill finish-opt-btn' + (idx === 0 ? " active" : "") + '" ' +
+              'data-finish="' + fin + '">' +
+              fin +
+            "</button>"
+          );
+        }).join("");
+
+        variantHtml =
+          '<div class="variant-box" data-base-name="' + item.name + '">' +
+            '<div class="variant-group">' +
+              '<span class="variant-label">Names</span>' +
+              '<div class="variant-pills">' + nameButtons + "</div>" +
+            "</div>" +
+            '<div class="variant-group">' +
+              '<span class="variant-label">Colour</span>' +
+              '<div class="variant-pills">' + finishButtons + "</div>" +
+            "</div>" +
+          "</div>";
+      }
+
       return (
         '<article class="item-card" data-category="' + item.category + '">' +
           '<div class="item-photo">' +
@@ -229,16 +287,54 @@ document.addEventListener("DOMContentLoaded", function () {
           '<div class="item-info">' +
             '<div class="item-top">' +
               "<small>" + catLabel + "</small>" +
-              "<strong>R" + Number(item.price) + "</strong>" +
+              '<strong class="card-price">R' + initialPrice + "</strong>" +
             "</div>" +
             "<h3>" + item.name + "</h3>" +
             "<p>" + (item.desc || "Water-friendly stainless steel piece.") + "</p>" +
-            '<button type="button" class="btn-pink btn-small add-btn" data-name="' + item.name + '" data-price="' + Number(item.price) + '">Add to Bag &#9825;</button>' +
+            variantHtml +
+            '<button type="button" class="btn-pink btn-small add-btn" data-name="' + initialName + '" data-price="' + initialPrice + '">Add to Bag &#9825;</button>' +
           "</div>" +
         "</article>"
       );
     }).join("");
   }
+
+  // Handle Infinity Name Necklace option pills (Names & Colour)
+  document.addEventListener("click", function (e) {
+    var optBtn = e.target.closest(".name-opt-btn, .finish-opt-btn");
+    if (!optBtn) return;
+
+    var card = optBtn.closest(".item-card");
+    if (!card) return;
+
+    if (optBtn.classList.contains("name-opt-btn")) {
+      card.querySelectorAll(".name-opt-btn").forEach(function (b) { b.classList.remove("active"); });
+      optBtn.classList.add("active");
+    } else {
+      card.querySelectorAll(".finish-opt-btn").forEach(function (b) { b.classList.remove("active"); });
+      optBtn.classList.add("active");
+    }
+
+    var variantBox = card.querySelector(".variant-box");
+    var activeNameBtn = card.querySelector(".name-opt-btn.active");
+    var activeFinishBtn = card.querySelector(".finish-opt-btn.active");
+    var priceEl = card.querySelector(".card-price");
+    var badgeEl = card.querySelector(".badge-pop");
+    var addBtn = card.querySelector(".add-btn");
+
+    if (!variantBox || !activeNameBtn || !activeFinishBtn || !addBtn) return;
+
+    var baseName = variantBox.dataset.baseName;
+    var nameLabel = activeNameBtn.dataset.nameLabel;
+    var selectedPrice = Number(activeNameBtn.dataset.price);
+    var selectedFinish = activeFinishBtn.dataset.finish;
+
+    if (priceEl) priceEl.textContent = "R" + selectedPrice;
+    if (badgeEl) badgeEl.textContent = selectedFinish;
+
+    addBtn.dataset.name = baseName + " (" + nameLabel + ", " + selectedFinish + ")";
+    addBtn.dataset.price = String(selectedPrice);
+  });
 
   var menuBtn = document.getElementById("menuBtn");
   var navMenu = document.getElementById("navMenu");

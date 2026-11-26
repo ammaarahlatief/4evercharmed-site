@@ -591,6 +591,55 @@ h2 {
   flex: 1;
 }
 
+/* Variant Option Pills inside Product Card */
+.variant-box {
+  margin-bottom: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.variant-group {
+  display: grid;
+  gap: 4px;
+}
+
+.variant-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.variant-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.variant-pill {
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--bg-cream);
+  border: 1.5px solid var(--line);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.variant-pill:hover {
+  border-color: var(--strawberry);
+}
+
+.variant-pill.active {
+  background: var(--strawberry);
+  border-color: var(--strawberry);
+  color: #FFFFFF;
+}
+
 /* Steps, POPIA & Reviews */
 .steps-three,
 .reviews-three {
